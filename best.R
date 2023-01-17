@@ -34,6 +34,6 @@ best <- function(state, outcome) {
     arrange_at(c(outcome,"Hospital.Name"))
   ## Return hospital name in that state with lowest 30-day death
   ## rate
-  
+  return(myData2[1,3])
   
 }
